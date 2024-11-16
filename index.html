@@ -5,122 +5,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shubham Sajannavar - DevOps Engineer</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="hero-section">
-        <nav class="navbar">
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#testimonials">Testimonials</a>
-            <a href="#contact">Contact</a>
-        </nav>
-        <div class="hero-content">
-            <h1>Shubham Sajannavar</h1>
-            <p class="subtitle">DevOps Engineer | Oracle DBA | Cloud Enthusiast</p>
-            <a href="#contact" class="btn primary-btn">Get in Touch</a>
+    <header id="home" class="header">
+        <div class="container">
+            <h1 class="header-title">Hi, I'm <span class="highlight">Shubham Sajannavar</span></h1>
+            <p class="header-subtitle">DevOps Engineer | Cloud Architect | Oracle DBA</p>
+            <a href="#contact" class="btn btn-primary">Get in Touch</a>
         </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <section id="about" class="section">
+        <section id="about" class="about section">
             <div class="container">
                 <h2>About Me</h2>
                 <p>
-                    I am a DevOps Engineer with 5+ years of experience specializing in CI/CD pipeline automation, 
-                    containerization, and cloud infrastructure management. Passionate about leveraging technology to build scalable, secure, and efficient systems.
+                    I am a passionate DevOps Engineer with over 5 years of experience. My expertise lies in automating workflows, 
+                    building scalable systems, and implementing robust CI/CD pipelines. I thrive in environments where innovation 
+                    and technology intersect to solve real-world challenges.
                 </p>
             </div>
         </section>
 
-        <section id="skills" class="section bg-light">
+        <section id="skills" class="skills section">
             <div class="container">
                 <h2>Technical Skills</h2>
                 <div class="skills-grid">
-                    <div class="skill-card">
-                        <h3>DevOps Tools</h3>
+                    <div class="skill">
+                        <h3>DevOps</h3>
                         <p>Docker, Kubernetes, Jenkins, Terraform, Ansible</p>
                     </div>
-                    <div class="skill-card">
-                        <h3>Cloud Platforms</h3>
+                    <div class="skill">
+                        <h3>Cloud</h3>
                         <p>AWS (EC2, S3, IAM), Azure</p>
                     </div>
-                    <div class="skill-card">
-                        <h3>Database Management</h3>
-                        <p>Oracle 19c, 12c, RMAN, DataGuard</p>
+                    <div class="skill">
+                        <h3>Databases</h3>
+                        <p>Oracle 19c, 12c, MySQL, DataGuard</p>
                     </div>
-                    <div class="skill-card">
-                        <h3>Monitoring Tools</h3>
+                    <div class="skill">
+                        <h3>Monitoring</h3>
                         <p>Prometheus, Grafana, ELK Stack</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="experience" class="section">
+        <section id="experience" class="experience section">
             <div class="container">
-                <h2>Professional Experience</h2>
-                <div class="job-card">
-                    <h3>Netcracker Technology Solutions</h3>
-                    <p><strong>Role:</strong> Technology Engineer | <strong>Duration:</strong> Feb 2022 - Present</p>
-                    <ul>
-                        <li>Implemented CI/CD pipelines, reducing deployment times.</li>
-                        <li>Containerized applications using Docker and Kubernetes.</li>
-                        <li>Set up monitoring systems with Prometheus and Grafana.</li>
-                    </ul>
-                </div>
-                <div class="job-card">
-                    <h3>Tata Consultancy Services (TCS)</h3>
-                    <p><strong>Role:</strong> IT Analyst - Oracle Database Administrator | <strong>Duration:</strong> Aug 2016 - Feb 2022</p>
-                    <ul>
-                        <li>Conducted daily database monitoring and health checks.</li>
-                        <li>Performed Oracle DB upgrades and automated backups.</li>
-                    </ul>
+                <h2>Experience</h2>
+                <div class="experience-grid">
+                    <div class="job">
+                        <h3>Netcracker Technology Solutions</h3>
+                        <p><strong>Technology Engineer</strong> (Feb 2022 - Present)</p>
+                        <ul>
+                            <li>Implemented CI/CD pipelines to automate builds and deployments.</li>
+                            <li>Containerized applications using Docker and Kubernetes.</li>
+                            <li>Set up observability systems with Prometheus and Grafana.</li>
+                        </ul>
+                    </div>
+                    <div class="job">
+                        <h3>Tata Consultancy Services</h3>
+                        <p><strong>IT Analyst - Oracle DBA</strong> (Aug 2016 - Feb 2022)</p>
+                        <ul>
+                            <li>Managed Oracle DB upgrades, patching, and configurations.</li>
+                            <li>Automated database backups using RMAN.</li>
+                            <li>Optimized performance with proactive monitoring.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="projects" class="section bg-light">
+        <section id="projects" class="projects section">
             <div class="container">
                 <h2>Projects</h2>
-                <ul class="project-list">
-                    <li>Multi-Container Docker Setup: Optimized development workflows using Docker Compose.</li>
-                    <li>CI/CD Pipeline Setup: Reduced release cycle time by 40% with Jenkins automation.</li>
-                    <li>Kubernetes Management: Efficient scaling and resource management using Helm and kubectl.</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="testimonials" class="section">
-            <div class="container">
-                <h2>What Others Say</h2>
-                <div class="testimonial-grid">
-                    <div class="testimonial">
-                        <p>"Shubham is a highly skilled engineer who consistently delivers quality work. His expertise in DevOps and cloud technologies is unparalleled."</p>
-                        <h4>- Team Lead, Netcracker</h4>
+                <div class="project-grid">
+                    <div class="project">
+                        <h3>CI/CD Pipeline Optimization</h3>
+                        <p>Reduced deployment times by 40% through automated pipelines in Jenkins.</p>
                     </div>
-                    <div class="testimonial">
-                        <p>"A true professional who goes above and beyond to solve challenges. Shubham’s contributions to our database management were outstanding."</p>
-                        <h4>- Manager, TCS</h4>
+                    <div class="project">
+                        <h3>Multi-Container Setup</h3>
+                        <p>Developed Docker Compose setups for scalable development and testing workflows.</p>
+                    </div>
+                    <div class="project">
+                        <h3>Kubernetes Cluster Management</h3>
+                        <p>Managed clusters using Helm and kubectl, ensuring efficient scaling.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="section bg-dark">
+        <section id="contact" class="contact section">
             <div class="container">
                 <h2>Contact Me</h2>
                 <p><strong>Phone:</strong> +91-8904163401</p>
                 <p><strong>Email:</strong> <a href="mailto:shub2495@gmail.com">shub2495@gmail.com</a></p>
                 <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/shubham-sajannavar/" target="_blank">linkedin.com/in/shubham-sajannavar</a></p>
-                <p class="note">Feel free to reach out for collaborations or opportunities!</p>
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <p>© 2024 Shubham Sajannavar. All Rights Reserved.</p>
     </footer>
 </body>
