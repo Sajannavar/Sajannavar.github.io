@@ -1,101 +1,44 @@
-/* General Styles */
 body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f4f4f9;
-  color: #333;
-  overflow-x: hidden;
-}
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 1rem;
-}
-h1, h2 {
-  color: #2c3e50;
-}
-a {
-  text-decoration: none;
-  color: #3498db;
-}
-ul {
-  list-style: none;
-  padding: 0;
-}
-li {
-  margin: 0.5rem 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
-/* Header */
-.header {
-  text-align: center;
-  background: linear-gradient(135deg, #2c3e50, #3498db);
-  color: white;
-  padding: 2rem 0;
-}
-.header h1 {
-  font-size: 3rem;
-  margin: 0;
-}
-.header p {
-  margin: 0.5rem 0;
-}
-.header .btn {
-  background: #e74c3c;
-  color: white;
-  padding: 0.8rem 1.5rem;
-  border-radius: 5px;
-  display: inline-block;
-  font-weight: bold;
-  animation: bounce 2s infinite;
+header {
+    text-align: center;
+    background: #0073e6;
+    color: white;
+    padding: 20px 0;
 }
 
-/* Sections */
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0 0;
+}
+
 section {
-  padding: 2rem 0;
+    padding: 20px;
+    margin: 10px;
 }
+
+section#contact {
+    background: #f4f4f4;
+    text-align: center;
+}
+
 section h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  border-bottom: 2px solid #3498db;
-  display: inline-block;
-}
-section ul {
-  margin: 0;
-}
-section p, section ul li {
-  font-size: 1.1rem;
-  line-height: 1.6;
+    color: #0073e6;
 }
 
-/* Footer */
-.footer {
-  background: #2c3e50;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-}
-
-/* Animations */
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-@keyframes slideIn {
-  from { transform: translateY(50px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
-}
-@keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-10px); }
-}
-.animate-fade-in {
-  animation: fadeIn 1s ease-out;
-}
-.animate-slide-in {
-  animation: slideIn 1s ease-out;
-}
-.animate-bounce {
-  animation: bounce 2s infinite;
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
 }
