@@ -5,54 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shubham Sajannavar - DevOps Engineer</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header id="home" class="header">
-        <div class="container">
-            <h1 class="header-title">Hi, I'm <span class="highlight">Shubham Sajannavar</span></h1>
-            <p class="header-subtitle">DevOps Engineer | Cloud Architect | Oracle DBA</p>
-            <a href="#contact" class="btn btn-primary">Get in Touch</a>
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1>Hi, I’m <span class="highlight">Shubham Sajannavar</span></h1>
+            <p>DevOps Engineer | Cloud Specialist | Oracle DBA</p>
+            <a href="#contact" class="btn primary-btn">Let’s Connect</a>
         </div>
-        <nav class="nav">
+        <nav class="navbar">
             <ul>
-                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="about" class="about section">
+        <!-- About Section -->
+        <section id="about" class="section about">
             <div class="container">
                 <h2>About Me</h2>
                 <p>
-                    I am a passionate DevOps Engineer with over 5 years of experience. My expertise lies in automating workflows, 
-                    building scalable systems, and implementing robust CI/CD pipelines. I thrive in environments where innovation 
-                    and technology intersect to solve real-world challenges.
+                    I am a seasoned DevOps Engineer with over 5 years of experience in CI/CD pipeline automation,
+                    cloud infrastructure management, and container orchestration. I love simplifying processes and
+                    delivering scalable, secure solutions tailored to business needs.
+                </p>
+                <p>
+                    My journey includes mastering cutting-edge tools like Kubernetes, Docker, and Jenkins, and 
+                    successfully deploying applications on AWS and Azure. I thrive in collaborative teams where
+                    innovation fuels growth.
                 </p>
             </div>
         </section>
 
-        <section id="skills" class="skills section">
+        <!-- Skills Section -->
+        <section id="skills" class="section skills">
             <div class="container">
-                <h2>Technical Skills</h2>
+                <h2>Skills</h2>
                 <div class="skills-grid">
                     <div class="skill">
-                        <h3>DevOps</h3>
+                        <h3>DevOps Tools</h3>
                         <p>Docker, Kubernetes, Jenkins, Terraform, Ansible</p>
                     </div>
                     <div class="skill">
-                        <h3>Cloud</h3>
-                        <p>AWS (EC2, S3, IAM), Azure</p>
+                        <h3>Cloud Platforms</h3>
+                        <p>AWS (EC2, S3, RDS), Azure</p>
                     </div>
                     <div class="skill">
-                        <h3>Databases</h3>
-                        <p>Oracle 19c, 12c, MySQL, DataGuard</p>
+                        <h3>Database Management</h3>
+                        <p>Oracle 19c, MySQL, PostgreSQL, DataGuard</p>
                     </div>
                     <div class="skill">
                         <h3>Monitoring</h3>
@@ -62,7 +70,8 @@
             </div>
         </section>
 
-        <section id="experience" class="experience section">
+        <!-- Experience Section -->
+        <section id="experience" class="section experience">
             <div class="container">
                 <h2>Experience</h2>
                 <div class="experience-grid">
@@ -70,56 +79,94 @@
                         <h3>Netcracker Technology Solutions</h3>
                         <p><strong>Technology Engineer</strong> (Feb 2022 - Present)</p>
                         <ul>
-                            <li>Implemented CI/CD pipelines to automate builds and deployments.</li>
-                            <li>Containerized applications using Docker and Kubernetes.</li>
-                            <li>Set up observability systems with Prometheus and Grafana.</li>
+                            <li>Automated CI/CD pipelines to reduce deployment times by 50%.</li>
+                            <li>Developed and containerized applications using Docker and Kubernetes.</li>
+                            <li>Enhanced system observability with Prometheus and Grafana.</li>
                         </ul>
                     </div>
                     <div class="job">
                         <h3>Tata Consultancy Services</h3>
                         <p><strong>IT Analyst - Oracle DBA</strong> (Aug 2016 - Feb 2022)</p>
                         <ul>
-                            <li>Managed Oracle DB upgrades, patching, and configurations.</li>
-                            <li>Automated database backups using RMAN.</li>
-                            <li>Optimized performance with proactive monitoring.</li>
+                            <li>Managed and upgraded Oracle Databases for mission-critical applications.</li>
+                            <li>Automated database backup processes with RMAN, reducing manual efforts.</li>
+                            <li>Optimized performance through SQL tuning and database monitoring.</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="projects" class="projects section">
+        <!-- Projects Section -->
+        <section id="projects" class="section projects">
             <div class="container">
                 <h2>Projects</h2>
                 <div class="project-grid">
                     <div class="project">
                         <h3>CI/CD Pipeline Optimization</h3>
-                        <p>Reduced deployment times by 40% through automated pipelines in Jenkins.</p>
+                        <p>Designed Jenkins pipelines to streamline software releases, cutting deployment time by 40%.</p>
                     </div>
                     <div class="project">
                         <h3>Multi-Container Setup</h3>
-                        <p>Developed Docker Compose setups for scalable development and testing workflows.</p>
+                        <p>Built a Docker Compose environment to enable scalable development workflows.</p>
                     </div>
                     <div class="project">
-                        <h3>Kubernetes Cluster Management</h3>
-                        <p>Managed clusters using Helm and kubectl, ensuring efficient scaling.</p>
+                        <h3>Kubernetes Management</h3>
+                        <p>Deployed and managed Kubernetes clusters using Helm, ensuring robust scalability.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="contact section">
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="section testimonials">
+            <div class="container">
+                <h2>What People Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial">
+                        <p>"Shubham’s expertise in DevOps transformed our workflows. He’s a tech wizard who delivers results!"</p>
+                        <h4>- Senior Manager, Netcracker</h4>
+                    </div>
+                    <div class="testimonial">
+                        <p>"Shubham consistently went above and beyond to ensure smooth database operations. A true professional."</p>
+                        <h4>- Project Lead, TCS</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section id="hobbies" class="section hobbies">
+            <div class="container">
+                <h2>My Interests</h2>
+                <p>
+                    Beyond tech, I enjoy:
+                </p>
+                <ul>
+                    <li>Exploring cloud computing advancements</li>
+                    <li>Playing chess and strategizing</li>
+                    <li>Reading books on leadership and innovation</li>
+                    <li>Volunteering for community tech workshops</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
             <div class="container">
                 <h2>Contact Me</h2>
                 <p><strong>Phone:</strong> +91-8904163401</p>
                 <p><strong>Email:</strong> <a href="mailto:shub2495@gmail.com">shub2495@gmail.com</a></p>
-                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/shubham-sajannavar/" target="_blank">linkedin.com/in/shubham-sajannavar</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/shubham-sajannavar/" target="_blank">View Profile</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/Sajannavar" target="_blank">github.com/Sajannavar</a></p>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
-        <p>© 2024 Shubham Sajannavar. All Rights Reserved.</p>
+    <footer>
+        <div class="container">
+            <p>© 2024 Shubham Sajannavar. Built with passion and technology.</p>
+        </div>
     </footer>
 </body>
 </html>
