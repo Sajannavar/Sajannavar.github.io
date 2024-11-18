@@ -1,139 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- Meta Information -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional Resume Template for Bootstrap">
+    <meta name="description" content="Detailed Resume Template">
     <meta name="author" content="Shubham Sajannavar">
-    <meta name="keywords" content="Resume, Bootstrap Resume Template, Portfolio">
-    <title>Resume - Shubham Sajannavar</title>
-
-    <!-- Bootstrap CSS -->
+    <title>Shubham Sajannavar - Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Styling */
+        body {
+            background-color: #f3f4f6;
+            color: #333333;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        /* Header Section */
+        header {
+            background: linear-gradient(135deg, #0073e6, #005bb5);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+        }
+
+        /* Sections */
+        section {
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #0056b3;
+        }
+
+        section ul li {
+            margin-bottom: 8px;
+        }
+
+        /* Links */
+        a {
+            color: #0056b3;
+        }
+
+        a:hover {
+            color: #003580;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #212529;
+            color: white;
+        }
+
+        footer a {
+            color: #ffc107;
+        }
+
+        footer a:hover {
+            color: #ffeb3b;
+        }
+    </style>
 </head>
+
 <body>
     <!-- Header Section -->
-    <header class="bg-primary text-white text-center py-5">
-        <div class="container">
-            <h1 class="display-4">Shubham Sajannavar</h1>
-            <p class="lead">DevOps Engineer | Cloud Specialist | Oracle DBA</p>
-        </div>
+    <header>
+        <h1>Shubham Sajannavar</h1>
+        <p>DevOps Engineer | Cloud Specialist | Oracle DBA</p>
     </header>
 
-    <!-- Main Content -->
-    <main class="py-5">
-        <div class="container">
-            <!-- Personal Information -->
-            <section id="personal-info" class="mb-5">
-                <h2 class="text-center mb-4">Personal Information</h2>
-                <div class="row">
-                    <div class="col-md-6">
-                        <p><strong>Phone:</strong> +91-8904163401</p>
-                        <p><strong>Email:</strong> <a href="mailto:shub2495@gmail.com">shub2495@gmail.com</a></p>
-                        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/shubham-sajannavar/" target="_blank">linkedin.com/in/shubham-sajannavar</a></p>
-                    </div>
-                    <div class="col-md-6">
-                        <p><strong>GitHub:</strong> <a href="https://github.com/Sajannavar" target="_blank">github.com/Sajannavar</a></p>
-                        <p><strong>Location:</strong> Bangalore, India</p>
-                    </div>
-                </div>
-            </section>
+    <!-- About Section -->
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Experienced DevOps Engineer with over 7 years in IT, specializing in automating, optimizing, and managing
+            modern infrastructure environments. A strong background in Oracle Database Administration combined with hands-on experience in cloud platforms and CI/CD pipelines. Passionate about leveraging innovative tools to drive efficiency and reliability in development workflows.
+        </p>
+    </section>
 
-            <!-- Skills -->
-            <section id="skills" class="mb-5">
-                <h2 class="text-center mb-4">Technical Skills</h2>
-                <div class="row">
-                    <div class="col-md-4">
-                        <h5>DevOps Tools</h5>
-                        <p>Docker, Kubernetes, Jenkins, Terraform, Ansible</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h5>Cloud Platforms</h5>
-                        <p>AWS (EC2, S3, IAM), Azure</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h5>Database Management</h5>
-                        <p>Oracle 19c, MySQL, PostgreSQL</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Experience -->
-            <section id="experience" class="mb-5">
-                <h2 class="text-center mb-4">Professional Experience</h2>
-                <div class="row">
-                    <div class="col-md-6">
-                        <h5>Netcracker Technology Solutions</h5>
-                        <p><strong>Role:</strong> Technology Engineer</p>
-                        <p><strong>Duration:</strong> Feb 2022 - Present</p>
-                        <ul>
-                            <li>Automated CI/CD pipelines, reducing deployment times by 50%.</li>
-                            <li>Developed containerized applications with Docker and Kubernetes.</li>
-                            <li>Enhanced observability using Prometheus and Grafana.</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <h5>Tata Consultancy Services</h5>
-                        <p><strong>Role:</strong> IT Analyst - Oracle DBA</p>
-                        <p><strong>Duration:</strong> Aug 2016 - Feb 2022</p>
-                        <ul>
-                            <li>Managed Oracle Database upgrades for mission-critical applications.</li>
-                            <li>Automated backups using RMAN, improving efficiency.</li>
-                            <li>Optimized SQL queries for better database performance.</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Projects -->
-            <section id="projects" class="mb-5">
-                <h2 class="text-center mb-4">Key Projects</h2>
-                <div class="row">
-                    <div class="col-md-4">
-                        <h5>CI/CD Optimization</h5>
-                        <p>Streamlined Jenkins pipelines to enhance deployment speeds.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h5>Multi-Container Setup</h5>
-                        <p>Built scalable development workflows using Docker Compose.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h5>Kubernetes Management</h5>
-                        <p>Deployed and managed scalable Kubernetes clusters with Helm.</p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Education -->
-            <section id="education" class="mb-5">
-                <h2 class="text-center mb-4">Education</h2>
-                <div class="row">
-                    <div class="col-md-6">
-                        <h5>Master of Computer Applications (MCA)</h5>
-                        <p><strong>University:</strong> Rani Channamma University, Karnataka</p>
-                        <p><strong>Year:</strong> 2020</p>
-                    </div>
-                    <div class="col-md-6">
-                        <h5>Bachelor of Computer Applications (BCA)</h5>
-                        <p><strong>University:</strong> Rani Channamma University, Karnataka</p>
-                        <p><strong>Year:</strong> 2016</p>
-                    </div>
-                </div>
-            </section>
+    <!-- Skills Section -->
+    <section>
+        <h2>Technical Skills</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h4>DevOps Tools</h4>
+                <ul>
+                    <li>Docker, Kubernetes</li>
+                    <li>Jenkins, Terraform</li>
+                    <li>Ansible, Helm</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4>Cloud Platforms</h4>
+                <ul>
+                    <li>AWS (EC2, S3, IAM, RDS)</li>
+                    <li>Azure (VM, Blob Storage)</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4>Database Management</h4>
+                <ul>
+                    <li>Oracle 19c, MySQL</li>
+                    <li>PostgreSQL</li>
+                    <li>SQL Optimization, RMAN</li>
+                </ul>
+            </div>
         </div>
-    </main>
+    </section>
+
+    <!-- Experience Section -->
+    <section>
+        <h2>Professional Experience</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Netcracker Technology Solutions</h4>
+                <p><strong>Technology Engineer</strong> (Feb 2022 - Present)</p>
+                <ul>
+                    <li>Automated and maintained CI/CD pipelines for faster deployments.</li>
+                    <li>Developed scalable applications using Docker and Kubernetes.</li>
+                    <li>Implemented system monitoring with Prometheus and Grafana.</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h4>Tata Consultancy Services</h4>
+                <p><strong>IT Analyst - Oracle DBA</strong> (Aug 2016 - Feb 2022)</p>
+                <ul>
+                    <li>Led Oracle Database upgrades for business-critical applications.</li>
+                    <li>Implemented RMAN-based backup and disaster recovery strategies.</li>
+                    <li>Enhanced database performance by optimizing complex queries.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section>
+        <h2>Key Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h4>CI/CD Optimization</h4>
+                <p>Streamlined Jenkins pipelines to reduce deployment times by 50%.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Multi-Container Development</h4>
+                <p>Built a robust Docker Compose setup for scalable development environments.</p>
+            </div>
+            <div class="col-md-4">
+                <h4>Kubernetes Orchestration</h4>
+                <p>Managed large Kubernetes clusters, ensuring 99.9% uptime.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section>
+        <h2>Education</h2>
+        <div class="row text-center">
+            <div class="col-md-6">
+                <h4>MCA</h4>
+                <p>Rani Channamma University, Karnataka (2020)</p>
+            </div>
+            <div class="col-md-6">
+                <h4>BCA</h4>
+                <p>Rani Channamma University, Karnataka (2016)</p>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3">
-        <div class="container">
-            <p>&copy; 2024 Shubham Sajannavar. Built with Bootstrap.</p>
-        </div>
+    <footer>
+        <h4>Contact Information</h4>
+        <p><strong>Phone:</strong> +91-8904163401</p>
+        <p><strong>Email:</strong> <a href="mailto:shub2495@gmail.com">shub2495@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/shubham-sajannavar/" target="_blank">linkedin.com/in/shubham-sajannavar</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/Sajannavar" target="_blank">github.com/Sajannavar</a></p>
+        <p>&copy; 2024 Shubham Sajannavar</p>
     </footer>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
