@@ -3,67 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shubham Sajannavar - DevOps Engineer</title>
+    <title>Shubham Sajannavar - Responsive Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="hero-section">
-        <div class="hero-content">
-            <h1>Hi, I’m <span class="highlight">Shubham Sajannavar</span></h1>
-            <p>DevOps Engineer | Cloud Specialist | Oracle DBA</p>
-            <a href="#contact" class="btn primary-btn">Let’s Connect</a>
-        </div>
+    <header class="hero">
         <nav class="navbar">
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#hobbies">Hobbies</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <div class="container">
+                <a href="#" class="logo">Shubham</a>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="nav-toggle" id="nav-toggle">&#9776;</button>
+            </div>
         </nav>
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Shubham Sajannavar</span></h1>
+            <p>DevOps Engineer | Cloud Architect | Oracle DBA</p>
+            <a href="#contact" class="btn primary-btn">Contact Me</a>
+        </div>
     </header>
 
     <main>
         <!-- About Section -->
-        <section id="about" class="section about">
+        <section id="about" class="section">
             <div class="container">
                 <h2>About Me</h2>
                 <p>
-                    I am a seasoned DevOps Engineer with over 5 years of experience in CI/CD pipeline automation,
-                    cloud infrastructure management, and container orchestration. I love simplifying processes and
-                    delivering scalable, secure solutions tailored to business needs.
-                </p>
-                <p>
-                    My journey includes mastering cutting-edge tools like Kubernetes, Docker, and Jenkins, and 
-                    successfully deploying applications on AWS and Azure. I thrive in collaborative teams where
-                    innovation fuels growth.
+                    I am a DevOps Engineer with a passion for solving complex technical challenges. Over 5 years, 
+                    I’ve mastered modern DevOps tools, cloud platforms, and database solutions. I thrive on building 
+                    secure and scalable systems that enable business success.
                 </p>
             </div>
         </section>
 
         <!-- Skills Section -->
-        <section id="skills" class="section skills">
+        <section id="skills" class="section bg-light">
             <div class="container">
-                <h2>Skills</h2>
+                <h2>Technical Skills</h2>
                 <div class="skills-grid">
                     <div class="skill">
                         <h3>DevOps Tools</h3>
-                        <p>Docker, Kubernetes, Jenkins, Terraform, Ansible</p>
+                        <p>Docker, Kubernetes, Jenkins, Terraform</p>
                     </div>
                     <div class="skill">
                         <h3>Cloud Platforms</h3>
-                        <p>AWS (EC2, S3, RDS), Azure</p>
+                        <p>AWS (EC2, S3, IAM), Azure</p>
                     </div>
                     <div class="skill">
                         <h3>Database Management</h3>
-                        <p>Oracle 19c, MySQL, PostgreSQL, DataGuard</p>
+                        <p>Oracle 19c, MySQL, DataGuard</p>
                     </div>
                     <div class="skill">
-                        <h3>Monitoring</h3>
+                        <h3>Monitoring Tools</h3>
                         <p>Prometheus, Grafana, ELK Stack</p>
                     </div>
                 </div>
@@ -71,26 +68,26 @@
         </section>
 
         <!-- Experience Section -->
-        <section id="experience" class="section experience">
+        <section id="experience" class="section">
             <div class="container">
                 <h2>Experience</h2>
                 <div class="experience-grid">
                     <div class="job">
                         <h3>Netcracker Technology Solutions</h3>
-                        <p><strong>Technology Engineer</strong> (Feb 2022 - Present)</p>
+                        <p><strong>Technology Engineer</strong> | Feb 2022 - Present</p>
                         <ul>
-                            <li>Automated CI/CD pipelines to reduce deployment times by 50%.</li>
-                            <li>Developed and containerized applications using Docker and Kubernetes.</li>
+                            <li>Automated CI/CD pipelines, reducing deployment times by 50%.</li>
+                            <li>Developed containerized applications with Docker and Kubernetes.</li>
                             <li>Enhanced system observability with Prometheus and Grafana.</li>
                         </ul>
                     </div>
                     <div class="job">
                         <h3>Tata Consultancy Services</h3>
-                        <p><strong>IT Analyst - Oracle DBA</strong> (Aug 2016 - Feb 2022)</p>
+                        <p><strong>IT Analyst - Oracle DBA</strong> | Aug 2016 - Feb 2022</p>
                         <ul>
-                            <li>Managed and upgraded Oracle Databases for mission-critical applications.</li>
-                            <li>Automated database backup processes with RMAN, reducing manual efforts.</li>
-                            <li>Optimized performance through SQL tuning and database monitoring.</li>
+                            <li>Managed Oracle Database upgrades and configurations.</li>
+                            <li>Automated backups using RMAN, reducing downtime.</li>
+                            <li>Optimized SQL queries to enhance database performance.</li>
                         </ul>
                     </div>
                 </div>
@@ -98,75 +95,50 @@
         </section>
 
         <!-- Projects Section -->
-        <section id="projects" class="section projects">
+        <section id="projects" class="section bg-light">
             <div class="container">
                 <h2>Projects</h2>
                 <div class="project-grid">
                     <div class="project">
-                        <h3>CI/CD Pipeline Optimization</h3>
-                        <p>Designed Jenkins pipelines to streamline software releases, cutting deployment time by 40%.</p>
+                        <h3>CI/CD Optimization</h3>
+                        <p>Streamlined Jenkins pipelines, cutting software release time by 40%.</p>
                     </div>
                     <div class="project">
                         <h3>Multi-Container Setup</h3>
-                        <p>Built a Docker Compose environment to enable scalable development workflows.</p>
+                        <p>Designed scalable development workflows with Docker Compose.</p>
                     </div>
                     <div class="project">
                         <h3>Kubernetes Management</h3>
-                        <p>Deployed and managed Kubernetes clusters using Helm, ensuring robust scalability.</p>
+                        <p>Managed Helm-based Kubernetes clusters for optimal scalability.</p>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Testimonials Section -->
-        <section id="testimonials" class="section testimonials">
-            <div class="container">
-                <h2>What People Say</h2>
-                <div class="testimonials-grid">
-                    <div class="testimonial">
-                        <p>"Shubham’s expertise in DevOps transformed our workflows. He’s a tech wizard who delivers results!"</p>
-                        <h4>- Senior Manager, Netcracker</h4>
-                    </div>
-                    <div class="testimonial">
-                        <p>"Shubham consistently went above and beyond to ensure smooth database operations. A true professional."</p>
-                        <h4>- Project Lead, TCS</h4>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Hobbies Section -->
-        <section id="hobbies" class="section hobbies">
-            <div class="container">
-                <h2>My Interests</h2>
-                <p>
-                    Beyond tech, I enjoy:
-                </p>
-                <ul>
-                    <li>Exploring cloud computing advancements</li>
-                    <li>Playing chess and strategizing</li>
-                    <li>Reading books on leadership and innovation</li>
-                    <li>Volunteering for community tech workshops</li>
-                </ul>
             </div>
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="section contact">
+        <section id="contact" class="section">
             <div class="container">
                 <h2>Contact Me</h2>
                 <p><strong>Phone:</strong> +91-8904163401</p>
                 <p><strong>Email:</strong> <a href="mailto:shub2495@gmail.com">shub2495@gmail.com</a></p>
-                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/shubham-sajannavar/" target="_blank">View Profile</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/shubham-sajannavar/" target="_blank">View Profile</a></p>
                 <p><strong>GitHub:</strong> <a href="https://github.com/Sajannavar" target="_blank">github.com/Sajannavar</a></p>
             </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
-            <p>© 2024 Shubham Sajannavar. Built with passion and technology.</p>
+            <p>&copy; 2024 Shubham Sajannavar. All rights reserved.</p>
         </div>
     </footer>
+
+    <script>
+        const toggle = document.getElementById("nav-toggle");
+        const navLinks = document.querySelector(".nav-links");
+        toggle.addEventListener("click", () => {
+            navLinks.classList.toggle("show");
+        });
+    </script>
 </body>
 </html>
