@@ -4,48 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shubham Sajannavar - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="hero">
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">Shubham</a>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="nav-toggle" id="nav-toggle">&#9776;</button>
+            </div>
+        </nav>
         <div class="hero-content">
             <h1>Hi, I’m <span class="highlight">Shubham Sajannavar</span></h1>
-            <p>DevOps Engineer | Cloud Specialist | Oracle DBA</p>
-            <a href="#contact" class="btn btn-primary">Contact Me</a>
+            <p class="hero-subtitle">DevOps Engineer | Cloud Specialist | Oracle DBA</p>
+            <a href="#contact" class="btn btn-primary">Get in Touch</a>
         </div>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
     </header>
 
     <main>
         <!-- About Section -->
         <section id="about" class="section about">
             <div class="container">
-                <h2>About Me</h2>
+                <h2 class="section-title">About Me</h2>
                 <p>
-                    I am a DevOps Engineer with over 5 years of experience in optimizing workflows, developing scalable 
-                    systems, and automating infrastructure. I specialize in cloud platforms and cutting-edge DevOps tools, 
-                    delivering secure and efficient solutions to meet business needs.
+                    I am a skilled DevOps Engineer with over 5 years of experience in optimizing workflows, automating infrastructure, and delivering secure and scalable solutions. 
+                    My expertise lies in cloud platforms, modern DevOps tools, and database systems, ensuring business needs are met with efficiency.
                 </p>
             </div>
         </section>
 
         <!-- Skills Section -->
-        <section id="skills" class="section skills">
+        <section id="skills" class="section bg-light">
             <div class="container">
-                <h2>Skills</h2>
+                <h2 class="section-title">Technical Skills</h2>
                 <div class="skills-grid">
                     <div class="skill-card">
                         <h3>DevOps Tools</h3>
-                        <p>Docker, Kubernetes, Jenkins, Terraform</p>
+                        <p>Docker, Kubernetes, Jenkins, Terraform, Ansible</p>
                     </div>
                     <div class="skill-card">
                         <h3>Cloud Platforms</h3>
@@ -64,26 +67,26 @@
         </section>
 
         <!-- Experience Section -->
-        <section id="experience" class="section experience">
+        <section id="experience" class="section">
             <div class="container">
-                <h2>Experience</h2>
-                <div class="experience-timeline">
+                <h2 class="section-title">Experience</h2>
+                <div class="experience-grid">
                     <div class="job">
                         <h3>Netcracker Technology Solutions</h3>
                         <p><strong>Technology Engineer</strong> | Feb 2022 - Present</p>
                         <ul>
                             <li>Automated CI/CD pipelines, reducing deployment times by 50%.</li>
-                            <li>Developed containerized applications using Docker and Kubernetes.</li>
-                            <li>Enhanced system observability with Prometheus and Grafana.</li>
+                            <li>Developed containerized applications with Docker and Kubernetes.</li>
+                            <li>Enhanced observability using Prometheus and Grafana.</li>
                         </ul>
                     </div>
                     <div class="job">
                         <h3>Tata Consultancy Services</h3>
                         <p><strong>IT Analyst - Oracle DBA</strong> | Aug 2016 - Feb 2022</p>
                         <ul>
-                            <li>Managed Oracle Database upgrades for mission-critical applications.</li>
-                            <li>Automated backups using RMAN, reducing downtime.</li>
-                            <li>Optimized SQL queries for better database performance.</li>
+                            <li>Managed Oracle Database upgrades for critical applications.</li>
+                            <li>Automated backups using RMAN, improving efficiency.</li>
+                            <li>Optimized SQL queries, improving database performance.</li>
                         </ul>
                     </div>
                 </div>
@@ -91,30 +94,30 @@
         </section>
 
         <!-- Projects Section -->
-        <section id="projects" class="section projects">
+        <section id="projects" class="section bg-light">
             <div class="container">
-                <h2>Projects</h2>
+                <h2 class="section-title">Projects</h2>
                 <div class="project-grid">
                     <div class="project-card">
                         <h3>CI/CD Optimization</h3>
-                        <p>Reduced deployment time by 40% using automated Jenkins pipelines.</p>
+                        <p>Streamlined Jenkins pipelines to enhance deployment speeds.</p>
                     </div>
                     <div class="project-card">
                         <h3>Multi-Container Setup</h3>
-                        <p>Built scalable development environments using Docker Compose.</p>
+                        <p>Built scalable development workflows using Docker Compose.</p>
                     </div>
                     <div class="project-card">
                         <h3>Kubernetes Management</h3>
-                        <p>Managed Kubernetes clusters for highly scalable applications.</p>
+                        <p>Deployed and managed scalable Kubernetes clusters with Helm.</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="section contact">
+        <section id="contact" class="section">
             <div class="container">
-                <h2>Contact Me</h2>
+                <h2 class="section-title">Contact Me</h2>
                 <p><strong>Phone:</strong> +91-8904163401</p>
                 <p><strong>Email:</strong> <a href="mailto:shub2495@gmail.com">shub2495@gmail.com</a></p>
                 <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/shubham-sajannavar/" target="_blank">linkedin.com/in/shubham-sajannavar</a></p>
@@ -125,7 +128,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Shubham Sajannavar. Designed with passion.</p>
+            <p>&copy; 2024 Shubham Sajannavar. Built with passion and technology.</p>
         </div>
     </footer>
 </body>
