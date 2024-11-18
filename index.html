@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shubham Sajannavar - Responsive Portfolio</title>
+    <title>Shubham Sajannavar - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="hero">
+        <div class="container hero-content">
+            <h1 class="hero-title">Hello, I’m <span class="highlight">Shubham Sajannavar</span></h1>
+            <p class="hero-subtitle">DevOps Engineer | Cloud Specialist | Oracle DBA</p>
+            <a href="#contact" class="btn btn-primary">Get in Touch</a>
+        </div>
         <nav class="navbar">
             <div class="container">
                 <a href="#" class="logo">Shubham</a>
@@ -22,22 +27,17 @@
                 <button class="nav-toggle" id="nav-toggle">&#9776;</button>
             </div>
         </nav>
-        <div class="hero-content">
-            <h1>Hi, I'm <span class="highlight">Shubham Sajannavar</span></h1>
-            <p>DevOps Engineer | Cloud Architect | Oracle DBA</p>
-            <a href="#contact" class="btn primary-btn">Contact Me</a>
-        </div>
     </header>
 
     <main>
         <!-- About Section -->
-        <section id="about" class="section">
+        <section id="about" class="section about">
             <div class="container">
-                <h2>About Me</h2>
+                <h2 class="section-title">About Me</h2>
                 <p>
-                    I am a DevOps Engineer with a passion for solving complex technical challenges. Over 5 years, 
-                    I’ve mastered modern DevOps tools, cloud platforms, and database solutions. I thrive on building 
-                    secure and scalable systems that enable business success.
+                    I am a DevOps Engineer with over 5 years of experience, skilled in automating workflows,
+                    building scalable systems, and delivering secure and efficient cloud-based solutions.
+                    My expertise lies in modern DevOps tools, cloud platforms, and database management systems.
                 </p>
             </div>
         </section>
@@ -45,21 +45,21 @@
         <!-- Skills Section -->
         <section id="skills" class="section bg-light">
             <div class="container">
-                <h2>Technical Skills</h2>
+                <h2 class="section-title">Technical Skills</h2>
                 <div class="skills-grid">
-                    <div class="skill">
+                    <div class="skill-card">
                         <h3>DevOps Tools</h3>
-                        <p>Docker, Kubernetes, Jenkins, Terraform</p>
+                        <p>Docker, Kubernetes, Jenkins, Terraform, Ansible</p>
                     </div>
-                    <div class="skill">
+                    <div class="skill-card">
                         <h3>Cloud Platforms</h3>
-                        <p>AWS (EC2, S3, IAM), Azure</p>
+                        <p>AWS (EC2, S3, RDS), Azure</p>
                     </div>
-                    <div class="skill">
+                    <div class="skill-card">
                         <h3>Database Management</h3>
-                        <p>Oracle 19c, MySQL, DataGuard</p>
+                        <p>Oracle 19c, MySQL, PostgreSQL</p>
                     </div>
-                    <div class="skill">
+                    <div class="skill-card">
                         <h3>Monitoring Tools</h3>
                         <p>Prometheus, Grafana, ELK Stack</p>
                     </div>
@@ -70,7 +70,7 @@
         <!-- Experience Section -->
         <section id="experience" class="section">
             <div class="container">
-                <h2>Experience</h2>
+                <h2 class="section-title">Professional Experience</h2>
                 <div class="experience-grid">
                     <div class="job">
                         <h3>Netcracker Technology Solutions</h3>
@@ -85,9 +85,9 @@
                         <h3>Tata Consultancy Services</h3>
                         <p><strong>IT Analyst - Oracle DBA</strong> | Aug 2016 - Feb 2022</p>
                         <ul>
-                            <li>Managed Oracle Database upgrades and configurations.</li>
-                            <li>Automated backups using RMAN, reducing downtime.</li>
-                            <li>Optimized SQL queries to enhance database performance.</li>
+                            <li>Managed and upgraded Oracle Databases for critical applications.</li>
+                            <li>Automated backups using RMAN, reducing manual intervention.</li>
+                            <li>Improved database performance through SQL tuning.</li>
                         </ul>
                     </div>
                 </div>
@@ -97,31 +97,31 @@
         <!-- Projects Section -->
         <section id="projects" class="section bg-light">
             <div class="container">
-                <h2>Projects</h2>
+                <h2 class="section-title">Projects</h2>
                 <div class="project-grid">
-                    <div class="project">
+                    <div class="project-card">
                         <h3>CI/CD Optimization</h3>
-                        <p>Streamlined Jenkins pipelines, cutting software release time by 40%.</p>
+                        <p>Streamlined Jenkins pipelines to enhance software delivery speed.</p>
                     </div>
-                    <div class="project">
+                    <div class="project-card">
                         <h3>Multi-Container Setup</h3>
-                        <p>Designed scalable development workflows with Docker Compose.</p>
+                        <p>Designed scalable development environments using Docker Compose.</p>
                     </div>
-                    <div class="project">
+                    <div class="project-card">
                         <h3>Kubernetes Management</h3>
-                        <p>Managed Helm-based Kubernetes clusters for optimal scalability.</p>
+                        <p>Managed Helm-based Kubernetes clusters for efficient scalability.</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="section">
+        <section id="contact" class="section contact">
             <div class="container">
-                <h2>Contact Me</h2>
+                <h2 class="section-title">Contact Me</h2>
                 <p><strong>Phone:</strong> +91-8904163401</p>
                 <p><strong>Email:</strong> <a href="mailto:shub2495@gmail.com">shub2495@gmail.com</a></p>
-                <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/shubham-sajannavar/" target="_blank">View Profile</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/shubham-sajannavar/" target="_blank">linkedin.com/in/shubham-sajannavar</a></p>
                 <p><strong>GitHub:</strong> <a href="https://github.com/Sajannavar" target="_blank">github.com/Sajannavar</a></p>
             </div>
         </section>
