@@ -6,9 +6,9 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    color: #333;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
+    color: #333;
 }
 
 .container {
@@ -25,25 +25,24 @@ body {
     padding: 80px 20px;
 }
 
-.hero h1 {
-    font-size: 3em;
+.hero-title {
+    font-size: 2.5em;
     margin-bottom: 10px;
 }
 
-.hero .highlight {
-    color: #ffcc00;
+.hero-subtitle {
+    margin-bottom: 20px;
 }
 
-.hero .primary-btn {
+.hero .btn-primary {
     background: #ffcc00;
     color: #333;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    font-weight: bold;
 }
 
-.primary-btn:hover {
+.hero .btn-primary:hover {
     background: #ffd633;
 }
 
@@ -51,19 +50,21 @@ body {
 .navbar {
     background: #003366;
     padding: 15px 0;
+    text-align: center;
 }
 
 .navbar .logo {
     color: white;
     font-size: 1.5em;
-    text-decoration: none;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .navbar .nav-links {
     display: flex;
-    list-style: none;
+    justify-content: center;
     gap: 20px;
+    list-style: none;
 }
 
 .navbar .nav-links a {
@@ -76,14 +77,6 @@ body {
     color: #ffcc00;
 }
 
-.navbar .nav-toggle {
-    display: none;
-    font-size: 1.5em;
-    background: none;
-    border: none;
-    color: white;
-}
-
 /* Sections */
 .section {
     padding: 50px 20px;
@@ -92,6 +85,24 @@ body {
 
 .bg-light {
     background: #f4f4f4;
+}
+
+.skills-grid,
+.experience-grid,
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.skill-card,
+.job,
+.project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
 /* Footer */
@@ -105,4 +116,19 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .navbar .nav-links {
-        flex-direction:
+        flex-direction: column;
+        display: none;
+    }
+
+    .navbar .nav-links.show {
+        display: flex;
+    }
+
+    .navbar .nav-toggle {
+        display: block;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 1.5em;
+    }
+}
